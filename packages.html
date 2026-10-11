@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Packages · Horizon Travel</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800;900&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header id="header">
+  <div class="container">
+    <div class="header-content">
+      <a href="index.html" class="logo"><i class="fas fa-compass"></i><h1>HORIZON<span>.</span></h1></a>
+      <button class="mobile-menu-btn"><i class="fas fa-bars"></i></button>
+      <nav id="nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="destinations.html">Destinations</a></li>
+          <li><a href="packages.html" class="active">Packages</a></li>
+          <li><a href="deals.html">Deals</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <a href="contact.html" class="btn btn-primary"><i class="fas fa-plane-departure"></i><span>Book Now</span></a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="page-header">
+  <div class="container">
+    <h1>Curated Travel Packages</h1>
+    <p>From epic multi-country tours to intimate single-destination escapes — find your perfect journey.</p>
+  </div>
+</section>
+
+<section class="filter-bar">
+  <div class="container">
+    <div class="filter-group">
+      <select><option>All Types</option><option>Multi-Country</option><option>Wildlife Safari</option><option>Cruise</option><option>Cultural</option><option>Beach</option><option>City</option></select>
+      <select><option>All Durations</option><option>3–5 Days</option><option>5–10 Days</option><option>10–15 Days</option><option>15+ Days</option></select>
+      <select><option>All Regions</option><option>Asia</option><option>Europe</option><option>Americas</option><option>Africa</option><option>Oceania</option></select>
+      <a href="#" class="btn btn-primary"><i class="fas fa-filter"></i><span>Filter</span></a>
+    </div>
+    <div class="results-count">Showing <strong>12</strong> packages</div>
+  </div>
+</section>
+
+<section class="section-padding">
+  <div class="container">
+    <div class="section-title blur-in">
+      <span class="label-tag">✦ Multi-Day Journeys</span>
+      <h2>Grand Tours & Themed Adventures</h2>
+      <p>Multi-country journeys and one-of-a-kind themed tours designed for the modern explorer.</p>
+    </div>
+    <div class="packages-grid scale-stagger">
+      <div class="package-card">
+        <div class="package-img" style="background-image:url('images/european-grand-tour.jpg');"><span class="package-badge best">Grand Tour</span></div>
+        <div class="package-body">
+          <h3>European Grand Tour</h3>
+          <div class="location"><i class="fas fa-map-marker-alt"></i> 5 Countries · Europe</div>
+          <p>Paris · Rome · Barcelona · Amsterdam · Prague in one epic 15-day journey.</p>
+          <div class="package-features"><span>15 Days</span><span>5★ Hotels</span><span>High-Speed Train</span></div>
+        </div>
+      </div>
+      <div class="package-card">
+        <div class="package-img" style="background-image:url('images/southeast-asia-explorer.jpg');"><span class="package-badge best">Bestseller</span></div>
+        <div class="package-body">
+          <h3>Southeast Asia Explorer</h3>
+          <div class="location"><i class="fas fa-map-marker-alt"></i> 4 Countries · Asia</div>
+          <p>Thailand · Vietnam · Cambodia · Bali in 12 unforgettable days.</p>
+          <div class="package-features"><span>12 Days</span><span>4 Countries</span><span>Beach · Culture</span></div>
+        </div>
+      </div>
+      <div class="package-card">
+        <div class="package-img" style="background-image:url('images/african-safari-adventure.jpg');"><span class="package-badge wildlife">Wildlife</span></div>
+        <div class="package-body">
+          <h3>African Safari Adventure</h3>
+          <div class="location"><i class="fas fa-map-marker-alt"></i> Kenya · Tanzania</div>
+          <p>Witness the Great Migration and the Big Five across Maasai Mara and Serengeti.</p>
+          <div class="package-features"><span>10 Days</span><span>Luxury Camps</span><span>Big Five</span></div>
+        </div>
+      </div>
+      <div class="package-card">
+        <div class="package-img" style="background-image:url('images/japan-cultural-journey.jpg');"><span class="package-badge cultural">Cultural</span></div>
+        <div class="package-body">
+          <h3>Japan Cultural Journey</h3>
+          <div class="location"><i class="fas fa-map-marker-alt"></i> Japan</div>
+          <p>Tokyo · Kyoto · Osaka · Hiroshima · Mt. Fuji in 14 days.</p>
+          <div class="package-features"><span>14 Days</span><span>JR Pass</span><span>Ryokan Stay</span></div>
+        </div>
+      </div>
+      <div class="package-card">
+        <div class="package-img" style="background-image:url('images/mediterranean-cruise.jpg');"><span class="package-badge cruise">Cruise</span></div>
+        <div class="package-body">
+          <h3>Mediterranean Cruise</h3>
+          <div class="location"><i class="fas fa-map-marker-alt"></i> Italy · Greece · Croatia</div>
+          <p>Sail through Venice, Dubrovnik, Santorini, and Rome on an 11-day cruise.</p>
+          <div class="package-features"><span>11 Days</span><span>All Meals</span><span>Shore Tours</span></div>
+        </div>
+      </div>
+      <div class="package-card">
+        <div class="package-img" style="background-image:url('images/south-america-discovery.jpg');"><span class="package-badge adventure">Adventure</span></div>
+        <div class="package-body">
+          <h3>South America Discovery</h3>
+          <div class="location"><i class="fas fa-map-marker-alt"></i> Peru · Chile · Argentina · Brazil</div>
+          <p>Machu Picchu · Patagonia · Buenos Aires · Rio — 16 life-changing days.</p>
+          <div class="package-features"><span>16 Days</span><span>Inca Trail</span><span>4 Countries</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-divider"></div>
+
+    <div class="section-title blur-in">
+      <span class="label-tag">✦ Single Destinations</span>
+      <h2>Featured Destination Packages</h2>
+      <p>Timeless packages to the world's most beloved destinations — curated with everything included.</p>
+    </div>
+    <div class="packages-grid scale-stagger">
+      <div class="package-card">
+        <div class="package-img" style="background-image:url('images/bali.jpg');"><span class="package-badge best">Best Seller</span></div>
+        <div class="package-body">
+          <h3>Bali Explorer</h3>
+          <div class="location"><i class="fas fa-map-marker-alt"></i> Indonesia</div>
+          <p>Immerse yourself in Balinese culture with this comprehensive tour of the island's highlights.</p>
+          <div class="package-features"><span>7 Nights</span><span>Breakfast</span><span>Cultural Tours</span></div>
+        </div>
+      </div>
+      <div class="package-card">
+        <div class="package-img" style="background-image:url('images/santorini.jpg');"><span class="package-badge luxury">Luxury</span></div>
+        <div class="package-body">
+          <h3>Santorini Romance</h3>
+          <div class="location"><i class="fas fa-map-marker-alt"></i> Greece</div>
+          <p>Experience the magic of Santorini with sunset views and private tours.</p>
+          <div class="package-features"><span>5 Nights</span><span>Private Tours</span><span>Wine Tasting</span></div>
+        </div>
+      </div>
+      <div class="package-card">
+        <div class="package-img" style="background-image:url('images/tokyo.jpg');"><span class="package-badge cultural">Cultural</span></div>
+        <div class="package-body">
+          <h3>Tokyo Discovery</h3>
+          <div class="location"><i class="fas fa-map-marker-alt"></i> Japan</div>
+          <p>Explore the fascinating contrast of traditional and modern in Japan's vibrant capital.</p>
+          <div class="package-features"><span>7 Nights</span><span>JR Pass</span><span>Cultural</span></div>
+        </div>
+      </div>
+      <div class="package-card">
+        <div class="package-img" style="background-image:url('images/maldives.jpg');"><span class="package-badge luxury">Luxury</span></div>
+        <div class="package-body">
+          <h3>Maldives Retreat</h3>
+          <div class="location"><i class="fas fa-map-marker-alt"></i> Maldives</div>
+          <p>Escape to paradise with this all-inclusive luxury package featuring overwater villas.</p>
+          <div class="package-features"><span>7 Nights</span><span>Overwater Villa</span><span>All Inclusive</span></div>
+        </div>
+      </div>
+      <div class="package-card">
+        <div class="package-img" style="background-image:url('images/swiss-alps.jpg');"><span class="package-badge adventure">Adventure</span></div>
+        <div class="package-body">
+          <h3>Swiss Alpine Adventure</h3>
+          <div class="location"><i class="fas fa-map-marker-alt"></i> Switzerland</div>
+          <p>Explore the majestic Swiss Alps with guided hikes and cozy chalet stays.</p>
+          <div class="package-features"><span>6 Nights</span><span>Ski Pass</span><span>Mountain Tours</span></div>
+        </div>
+      </div>
+      <div class="package-card">
+        <div class="package-img" style="background-image:url('images/paris.jpg');"><span class="package-badge">Family</span></div>
+        <div class="package-body">
+          <h3>Paris Family Adventure</h3>
+          <div class="location"><i class="fas fa-map-marker-alt"></i> France</div>
+          <p>Perfect family getaway with Eiffel Tower visits, Disneyland Paris, and kid-friendly tours.</p>
+          <div class="package-features"><span>6 Nights</span><span>Disneyland</span><span>Family Fun</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="pagination reveal">
+      <a href="#" class="active">1</a>
+      <a href="#">2</a>
+      <a href="#"><i class="fas fa-chevron-right"></i></a>
+    </div>
+  </div>
+</section>
+
+<section class="cta-section">
+  <div class="cta-bg"></div>
+  <div class="container">
+    <h2>Ready for Your Next Adventure?</h2>
+    <p>Let our travel experts craft the perfect package for you. Start planning your dream trip today.</p>
+    <a href="contact.html" class="btn"><span>Talk to an Expert</span></a>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <div class="logo" style="margin-bottom:1rem;">
+          <i class="fas fa-compass"></i>
+          <h1 style="font-size:1.5rem;">HORIZON<span style="color:var(--accent);">.</span></h1>
+        </div>
+        <p>Creating unforgettable travel experiences since 2018. Your journey is our passion.</p>
+        <div class="footer-social">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="destinations.html">Destinations</a></li>
+          <li><a href="packages.html">Packages</a></li>
+          <li><a href="deals.html">Deals</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>Services</h3>
+        <ul>
+          <li><a href="#">Flight Booking</a></li>
+          <li><a href="#">Hotel Reservations</a></li>
+          <li><a href="#">Tour Packages</a></li>
+          <li><a href="#">Travel Insurance</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>Contact</h3>
+        <ul>
+          <li><i class="fas fa-map-marker-alt" style="color:var(--accent);width:20px;"></i> 123 Travel St, Adventure City</li>
+          <li><i class="fas fa-phone" style="color:var(--accent);width:20px;"></i> +1 (555) 123-4567</li>
+          <li><i class="fas fa-envelope" style="color:var(--accent);width:20px;"></i> info@horizontravel.com</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+window.addEventListener('scroll', () => {
+  document.getElementById('header').classList.toggle('scrolled', window.scrollY > 50);
+});
+const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+const nav = document.getElementById('nav');
+mobileMenuBtn.addEventListener('click', function () {
+  nav.classList.toggle('active');
+  const i = this.querySelector('i');
+  i.classList.toggle('fa-bars');
+  i.classList.toggle('fa-times');
+});
+document.querySelectorAll('nav ul li a').forEach(link => {
+  link.addEventListener('click', () => {
+    nav.classList.remove('active');
+    const i = mobileMenuBtn.querySelector('i');
+    i.classList.add('fa-bars');
+    i.classList.remove('fa-times');
+  });
+});
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      e.target.classList.add('active');
+      if (e.target.classList.contains('scale-stagger')) {
+        e.target.querySelectorAll('.package-card').forEach(c => c.classList.add('active'));
+      }
+    }
+  });
+}, { threshold: 0.15, rootMargin: '0px 0px -50px 0px' });
+document.querySelectorAll('.reveal, .blur-in, .scale-stagger, .section-title').forEach(el => observer.observe(el));
+</script>
+</body>
+</html>

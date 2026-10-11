@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Contact Us · Horizon Travel</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800;900&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header id="header">
+  <div class="container">
+    <div class="header-content">
+      <a href="index.html" class="logo"><i class="fas fa-compass"></i><h1>HORIZON<span>.</span></h1></a>
+      <button class="mobile-menu-btn"><i class="fas fa-bars"></i></button>
+      <nav id="nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="destinations.html">Destinations</a></li>
+          <li><a href="packages.html">Packages</a></li>
+          <li><a href="deals.html">Deals</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <a href="contact.html" class="btn btn-primary"><i class="fas fa-plane-departure"></i><span>Book Now</span></a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="page-header" style="background-image:linear-gradient(135deg,rgba(15,59,69,.92) 0%,rgba(28,90,102,.78) 100%),url('images/contact-header.jpg');">
+  <div class="container">
+    <div class="pin"><i class="fas fa-map-marked-alt"></i></div>
+    <h1>Get in Touch</h1>
+    <p>We're here to help you plan your perfect journey. Reach out to our travel experts today.</p>
+  </div>
+</section>
+
+<section class="section-padding">
+  <div class="container">
+    <div class="contact-grid">
+      <div class="contact-info slide-left">
+        <h2>Let's Talk</h2>
+        <p>Have questions about your next adventure? Our team is here to help you plan the perfect trip.</p>
+        <div class="slide-stagger">
+          <div class="contact-method">
+            <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div class="details">
+              <h3>Visit Our Office</h3>
+              <p>123 Travel Street, Adventure City, AC 10001</p>
+              <a href="#">Get Directions →</a>
+            </div>
+          </div>
+          <div class="contact-method">
+            <div class="icon"><i class="fas fa-phone"></i></div>
+            <div class="details">
+              <h3>Call Us</h3>
+              <p>+1 (555) 123-4567</p>
+              <p>+1 (555) 987-6543</p>
+            </div>
+          </div>
+          <div class="contact-method">
+            <div class="icon"><i class="fas fa-envelope"></i></div>
+            <div class="details">
+              <h3>Email Us</h3>
+              <p><a href="mailto:info@horizontravel.com">info@horizontravel.com</a></p>
+              <p><a href="mailto:support@horizontravel.com">support@horizontravel.com</a></p>
+            </div>
+          </div>
+          <div class="contact-method">
+            <div class="icon"><i class="fas fa-comments"></i></div>
+            <div class="details">
+              <h3>Live Chat</h3>
+              <p>Available 24/7 for instant assistance</p>
+              <a href="#">Start Chat →</a>
+            </div>
+          </div>
+        </div>
+        <div class="business-hours slide-right">
+          <h3>📅 Business Hours</h3>
+          <div class="hour-row"><span class="day">Monday - Friday</span><span>9:00 AM - 6:00 PM</span></div>
+          <div class="hour-row"><span class="day">Saturday</span><span>10:00 AM - 4:00 PM</span></div>
+          <div class="hour-row"><span class="day">Sunday</span><span>Closed</span></div>
+        </div>
+      </div>
+
+      <div class="contact-form slide-right">
+        <h2>Send Us a Message</h2>
+        <p>Fill out the form below and we'll get back to you within 24 hours.</p>
+        <div class="success-message" id="successMessage"><i class="fas fa-check-circle"></i> Thank you! Your message has been sent successfully.</div>
+        <form id="contactForm" class="fade-stagger">
+          <div class="form-row">
+            <div class="form-group"><label for="firstName">First Name</label><input type="text" id="firstName" placeholder="John" required /></div>
+            <div class="form-group"><label for="lastName">Last Name</label><input type="text" id="lastName" placeholder="Doe" required /></div>
+          </div>
+          <div class="form-row">
+            <div class="form-group"><label for="email">Email Address</label><input type="email" id="email" placeholder="john@example.com" required /></div>
+            <div class="form-group"><label for="phone">Phone Number</label><input type="tel" id="phone" placeholder="+1 (555) 000-0000" /></div>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <select id="subject" required>
+              <option value="">Select a subject</option>
+              <option>General Inquiry</option>
+              <option>Booking Assistance</option>
+              <option>Custom Package</option>
+              <option>Customer Support</option>
+              <option>Feedback</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form-group"><label for="message">Message</label><textarea id="message" placeholder="Tell us about your travel plans or questions..." required></textarea></div>
+          <button type="submit" class="btn btn-primary"><i class="fas fa-paper-plane"></i><span>Send Message</span></button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="faq-section section-padding">
+  <div class="container">
+    <div class="section-title reveal">
+      <h2>Frequently Asked Questions</h2>
+      <p>Find quick answers to common questions about our services and travel planning.</p>
+    </div>
+    <div class="faq-grid fade-stagger">
+      <div class="faq-item active">
+        <div class="question">How far in advance should I book my trip?<i class="fas fa-chevron-down"></i></div>
+        <div class="answer"><p>We recommend booking at least 3-6 months in advance for international trips and 1-3 months for domestic travel. This ensures the best availability for flights, accommodations, and activities, especially during peak seasons.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="question">What is your cancellation policy?<i class="fas fa-chevron-down"></i></div>
+        <div class="answer"><p>Our cancellation policy varies depending on the package and suppliers. Generally, cancellations made 30+ days before departure receive a full refund minus a processing fee. Within 30 days, refunds depend on supplier policies. We always recommend purchasing travel insurance for maximum protection.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="question">Do you offer travel insurance?<i class="fas fa-chevron-down"></i></div>
+        <div class="answer"><p>Yes, we partner with leading travel insurance providers to offer comprehensive coverage options. We can help you select the right plan for your needs, covering trip cancellation, medical emergencies, lost luggage, and more.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="question">Can you help with visa applications?<i class="fas fa-chevron-down"></i></div>
+        <div class="answer"><p>Absolutely! We provide visa assistance services for most destinations. Our experts will guide you through the application process, help with documentation, and provide up-to-date information on visa requirements for your specific nationality and destination.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="question">Do you create custom travel itineraries?<i class="fas fa-chevron-down"></i></div>
+        <div class="answer"><p>Yes, we specialize in creating personalized travel experiences. Our travel experts will work with you to design a custom itinerary that matches your interests, budget, and travel style. From luxury getaways to adventure trips, we'll craft the perfect journey just for you.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="map-section section-padding">
+  <div class="container">
+    <div class="section-title reveal">
+      <h2>Find Us</h2>
+      <p>Visit our office or connect with us online</p>
+    </div>
+    <div class="map-container scale-in">
+      <div class="map-content">
+        <i class="fas fa-map-marked-alt"></i>
+        <h3>Horizon Travel Headquarters</h3>
+        <p>123 Travel Street, Adventure City, AC 10001</p>
+        <p>Open Monday-Friday: 9am - 6pm</p>
+        <a href="#" class="btn"><span>Get Directions</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-section">
+  <div class="cta-bg"></div>
+  <div class="container">
+    <h2>Ready to Start Your Journey?</h2>
+    <p>Let our travel experts craft the perfect experience for you.</p>
+    <a href="packages.html" class="btn"><span>Plan Your Trip</span></a>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <div class="logo" style="margin-bottom:1rem;">
+          <i class="fas fa-compass"></i>
+          <h1 style="font-size:1.5rem;">HORIZON<span style="color:var(--accent);">.</span></h1>
+        </div>
+        <p>Creating unforgettable travel experiences since 2018. Your journey is our passion.</p>
+        <div class="footer-social">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="destinations.html">Destinations</a></li>
+          <li><a href="packages.html">Packages</a></li>
+          <li><a href="deals.html">Deals</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>Services</h3>
+        <ul>
+          <li><a href="#">Flight Booking</a></li>
+          <li><a href="#">Hotel Reservations</a></li>
+          <li><a href="#">Tour Packages</a></li>
+          <li><a href="#">Travel Insurance</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>Contact</h3>
+        <ul>
+          <li><i class="fas fa-map-marker-alt" style="color:var(--accent);width:20px;"></i> 123 Travel St, Adventure City</li>
+          <li><i class="fas fa-phone" style="color:var(--accent);width:20px;"></i> +1 (555) 123-4567</li>
+          <li><i class="fas fa-envelope" style="color:var(--accent);width:20px;"></i> info@horizontravel.com</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+window.addEventListener('scroll', () => {
+  document.getElementById('header').classList.toggle('scrolled', window.scrollY > 50);
+});
+const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+const nav = document.getElementById('nav');
+mobileMenuBtn.addEventListener('click', function () {
+  nav.classList.toggle('active');
+  const i = this.querySelector('i');
+  i.classList.toggle('fa-bars');
+  i.classList.toggle('fa-times');
+});
+document.querySelectorAll('nav ul li a').forEach(link => {
+  link.addEventListener('click', () => {
+    nav.classList.remove('active');
+    const i = mobileMenuBtn.querySelector('i');
+    i.classList.add('fa-bars');
+    i.classList.remove('fa-times');
+  });
+});
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(e => e.isIntersecting && e.target.classList.add('active'));
+}, { threshold: 0.15, rootMargin: '0px 0px -50px 0px' });
+document.querySelectorAll('.reveal, .slide-left, .slide-right, .scale-in, .slide-stagger, .fade-stagger, .section-title').forEach(el => observer.observe(el));
+
+document.querySelectorAll('.faq-item .question').forEach(q => {
+  q.addEventListener('click', () => {
+    const item = q.parentElement;
+    document.querySelectorAll('.faq-item').forEach(other => { if (other !== item) other.classList.remove('active'); });
+    item.classList.toggle('active');
+  });
+});
+
+const contactForm = document.getElementById('contactForm');
+const successMessage = document.getElementById('successMessage');
+contactForm.addEventListener('submit', function (e) {
+  e.preventDefault();
+  successMessage.style.display = 'block';
+  contactForm.reset();
+  setTimeout(() => successMessage.style.display = 'none', 5000);
+});
+</script>
+</body>
+</html>

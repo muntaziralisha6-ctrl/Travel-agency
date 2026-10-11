@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Deals · Horizon Travel</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800;900&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header id="header">
+  <div class="container">
+    <div class="header-content">
+      <a href="index.html" class="logo"><i class="fas fa-compass"></i><h1>HORIZON<span>.</span></h1></a>
+      <button class="mobile-menu-btn"><i class="fas fa-bars"></i></button>
+      <nav id="nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="destinations.html">Destinations</a></li>
+          <li><a href="packages.html">Packages</a></li>
+          <li><a href="deals.html" class="active">Deals</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <a href="contact.html" class="btn btn-primary"><i class="fas fa-plane-departure"></i><span>Book Now</span></a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="deals-page-header">
+  <div class="container">
+    <h1>Exclusive Travel Deals</h1>
+    <p>Limited-time offers on our signature packages and destinations. Book now and save big!</p>
+  </div>
+</section>
+
+<section class="flash-sale">
+  <div class="container">
+    <h2>⚡ Flash Sale</h2>
+    <p>Save up to 30% on selected packages and destinations. Book before time runs out!</p>
+    <div class="countdown">
+      <div class="countdown-item"><span class="number" id="days">05</span><span class="label">Days</span></div>
+      <div class="countdown-item"><span class="number" id="hours">18</span><span class="label">Hours</span></div>
+      <div class="countdown-item"><span class="number" id="minutes">21</span><span class="label">Minutes</span></div>
+      <div class="countdown-item"><span class="number" id="seconds">19</span><span class="label">Seconds</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="filter-bar">
+  <div class="container">
+    <div class="filter-group">
+      <select><option>All Regions</option><option>Asia</option><option>Europe</option><option>Americas</option><option>Africa</option><option>Oceania</option></select>
+      <select><option>All Types</option><option>Beach</option><option>Mountain</option><option>City</option><option>Cultural</option><option>Adventure</option><option>Wildlife</option></select>
+      <select><option>All Deals</option><option>Flash Sale</option><option>Hot Deals</option><option>New Offers</option><option>Limited Time</option></select>
+      <a href="#" class="btn btn-primary"><i class="fas fa-filter"></i><span>Filter</span></a>
+    </div>
+    <div class="results-count">Showing <strong>6</strong> active deals</div>
+  </div>
+</section>
+
+<section class="section-padding">
+  <div class="container">
+    <div class="section-title reveal">
+      <span class="label-tag">✦ Sale · Packages & Destinations</span>
+      <h2>Special Offers</h2>
+      <p>Discounts on our most popular packages and destinations. Click through to see the full details.</p>
+    </div>
+    <div class="deals-grid cards-stagger">
+      <div class="deal-card">
+        <div class="deal-img" style="background-image:url('images/european-grand-tour.jpg');">
+          <span class="deal-badge hot">🔥 Hot Deal</span><span class="deal-discount">20% OFF</span>
+        </div>
+        <div class="deal-body">
+          <h3>European Grand Tour</h3>
+          <div class="location"><i class="fas fa-map-marker-alt"></i> 5 Countries · Europe</div>
+          <p>Epic 15-day journey across Paris, Rome, Barcelona, Amsterdam, and Prague — now 20% off.</p>
+          <div class="deal-features"><span>15 Days</span><span>5★ Hotels</span><span>High-Speed Train</span></div>
+        </div>
+      </div>
+      <div class="deal-card">
+        <div class="deal-img" style="background-image:url('images/southeast-asia-explorer.jpg');">
+          <span class="deal-badge flash">⚡ Flash Sale</span><span class="deal-discount">24% OFF</span>
+        </div>
+        <div class="deal-body">
+          <h3>Southeast Asia Explorer</h3>
+          <div class="location"><i class="fas fa-map-marker-alt"></i> 4 Countries · Asia</div>
+          <p>Thailand · Vietnam · Cambodia · Bali in 12 days — now 24% off with flash sale pricing.</p>
+          <div class="deal-features"><span>12 Days</span><span>4 Countries</span><span>Beach & Culture</span></div>
+        </div>
+      </div>
+      <div class="deal-card">
+        <div class="deal-img" style="background-image:url('images/african-safari-adventure.jpg');">
+          <span class="deal-badge new">✨ New</span><span class="deal-discount">18% OFF</span>
+        </div>
+        <div class="deal-body">
+          <h3>African Safari Adventure</h3>
+          <div class="location"><i class="fas fa-map-marker-alt"></i> Kenya · Tanzania</div>
+          <p>Witness the Great Migration and Big Five in 10 days — new deal at 18% off.</p>
+          <div class="deal-features"><span>10 Days</span><span>Luxury Camps</span><span>Big Five</span></div>
+        </div>
+      </div>
+      <div class="deal-card">
+        <div class="deal-img" style="background-image:url('images/maldives.jpg');">
+          <span class="deal-badge hot">🔥 Hot Deal</span><span class="deal-discount">29% OFF</span>
+        </div>
+        <div class="deal-body">
+          <h3>Maldives Luxury Escape</h3>
+          <div class="location"><i class="fas fa-map-marker-alt"></i> Indian Ocean</div>
+          <p>Overwater villa with private pool and all-inclusive dining — 29% off, limited spots.</p>
+          <div class="deal-features"><span>7 Nights</span><span>Overwater Villa</span><span>All Inclusive</span></div>
+        </div>
+      </div>
+      <div class="deal-card">
+        <div class="deal-img" style="background-image:url('images/swiss-alps.jpg');">
+          <span class="deal-badge limited">⏰ Limited</span><span class="deal-discount">25% OFF</span>
+        </div>
+        <div class="deal-body">
+          <h3>Swiss Alps Winter Deal</h3>
+          <div class="location"><i class="fas fa-map-marker-alt"></i> Switzerland</div>
+          <p>Alpine adventure with ski passes, mountain tours, and cozy chalet stays — 25% off.</p>
+          <div class="deal-features"><span>6 Nights</span><span>Ski Pass</span><span>Chalet Stay</span></div>
+        </div>
+      </div>
+      <div class="deal-card">
+        <div class="deal-img" style="background-image:url('images/rome.jpg');">
+          <span class="deal-badge flash">⚡ Flash Sale</span><span class="deal-discount">30% OFF</span>
+        </div>
+        <div class="deal-body">
+          <h3>Rome Discovery</h3>
+          <div class="location"><i class="fas fa-map-marker-alt"></i> Italy</div>
+          <p>Ancient Rome with guided tours, Vatican visits, and authentic Italian dining — 30% off.</p>
+          <div class="deal-features"><span>6 Nights</span><span>Vatican Tour</span><span>Wine Tasting</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="seasonal-offers section-padding">
+  <div class="container">
+    <div class="section-title reveal">
+      <h2>Seasonal Promotions</h2>
+      <p>Special offers for upcoming seasons and holidays.</p>
+    </div>
+    <div class="offers-grid cards-stagger">
+      <div class="offer-card">
+        <div class="icon"><i class="fas fa-sun"></i></div>
+        <h3>Summer Escape</h3>
+        <p>Beat the heat with our summer specials to tropical destinations with extra beach activities.</p>
+        <a href="packages.html" class="btn btn-outline">View Offers</a>
+      </div>
+      <div class="offer-card">
+        <div class="icon"><i class="fas fa-snowflake"></i></div>
+        <h3>Winter Wonderland</h3>
+        <p>Cozy up with our winter deals to snowy destinations with ski passes and warm accommodations.</p>
+        <a href="packages.html" class="btn btn-outline">View Offers</a>
+      </div>
+      <div class="offer-card">
+        <div class="icon"><i class="fas fa-leaf"></i></div>
+        <h3>Spring Adventure</h3>
+        <p>Bloom with the season! Special spring rates to destinations known for beautiful flora and mild weather.</p>
+        <a href="packages.html" class="btn btn-outline">View Offers</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-section">
+  <div class="cta-bg"></div>
+  <div class="container">
+    <h2>Don't Miss Out!</h2>
+    <p>Subscribe to our newsletter and be the first to know about flash sales and exclusive offers.</p>
+    <a href="contact.html" class="btn"><span>Subscribe Now</span></a>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <div class="logo" style="margin-bottom:1rem;">
+          <i class="fas fa-compass"></i>
+          <h1 style="font-size:1.5rem;">HORIZON<span style="color:var(--accent);">.</span></h1>
+        </div>
+        <p>Creating unforgettable travel experiences since 2018. Your journey is our passion.</p>
+        <div class="footer-social">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="destinations.html">Destinations</a></li>
+          <li><a href="packages.html">Packages</a></li>
+          <li><a href="deals.html">Deals</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>Services</h3>
+        <ul>
+          <li><a href="#">Flight Booking</a></li>
+          <li><a href="#">Hotel Reservations</a></li>
+          <li><a href="#">Tour Packages</a></li>
+          <li><a href="#">Travel Insurance</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>Contact</h3>
+        <ul>
+          <li><i class="fas fa-map-marker-alt" style="color:var(--accent);width:20px;"></i> 123 Travel St, Adventure City</li>
+          <li><i class="fas fa-phone" style="color:var(--accent);width:20px;"></i> +1 (555) 123-4567</li>
+          <li><i class="fas fa-envelope" style="color:var(--accent);width:20px;"></i> info@horizontravel.com</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+window.addEventListener('scroll', () => {
+  document.getElementById('header').classList.toggle('scrolled', window.scrollY > 50);
+});
+const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+const nav = document.getElementById('nav');
+mobileMenuBtn.addEventListener('click', function () {
+  nav.classList.toggle('active');
+  const i = this.querySelector('i');
+  i.classList.toggle('fa-bars');
+  i.classList.toggle('fa-times');
+});
+document.querySelectorAll('nav ul li a').forEach(link => {
+  link.addEventListener('click', () => {
+    nav.classList.remove('active');
+    const i = mobileMenuBtn.querySelector('i');
+    i.classList.add('fa-bars');
+    i.classList.remove('fa-times');
+  });
+});
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      e.target.classList.add('active');
+      if (e.target.classList.contains('cards-stagger')) {
+        e.target.querySelectorAll('.deal-card, .offer-card').forEach(c => c.classList.add('in-view'));
+      }
+    }
+  });
+}, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+document.querySelectorAll('.reveal, .cards-stagger, .section-title').forEach(el => observer.observe(el));
+
+function updateCountdown() {
+  const now = new Date();
+  const target = new Date();
+  target.setDate(target.getDate() + 5);
+  target.setHours(23, 59, 59, 999);
+  const d = target - now;
+  document.getElementById('days').textContent = Math.floor(d/(1000*60*60*24)).toString().padStart(2,'0');
+  document.getElementById('hours').textContent = Math.floor((d%(1000*60*60*24))/(1000*60*60)).toString().padStart(2,'0');
+  document.getElementById('minutes').textContent = Math.floor((d%(1000*60*60))/(1000*60)).toString().padStart(2,'0');
+  document.getElementById('seconds').textContent = Math.floor((d%(1000*60))/1000).toString().padStart(2,'0');
+}
+setInterval(updateCountdown, 1000);
+updateCountdown();
+</script>
+</body>
+</html>
